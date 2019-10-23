@@ -8,4 +8,12 @@ $(document).ready(function() {
     $("#walrus").fadeIn();
   });
 
+  $(".slideDown").click(function() {
+    $("#walrus").slideDown();
+  });
+
+  $(".slideUp").click(function() {
+    $("#walrus").slideUp();
+  });
+
 });

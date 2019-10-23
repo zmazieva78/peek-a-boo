@@ -1,3 +1,12 @@
-img {
+/* #walrus-showing {
   display: none;
+} */
+
+.fadeIn, .fadeOut {
+  cursor: pointer;
+  color: #0088cc;
+}
+
+.fadeIn, .fadeOut:hover {
+  text-decoration: underline;
 }

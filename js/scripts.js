@@ -1,5 +1,11 @@
 $(document).ready(function() {
-  $("p").click(function() {
-    $("img").show();
+  $(".fadeOut").click(function() {
+    $("#walrus").fadeOut();
+
   });
+
+  $(".fadeIn").click(function() {
+    $("#walrus").fadeIn();
+  });
+
 });
